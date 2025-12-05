@@ -1,0 +1,27 @@
+{
+  "name": "@gausszhou/json-to-ts",
+  "private": false,
+  "version": "0.0.3",
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/underscore": "^1.13.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.15"
+  },
+  "dependencies": {
+    "underscore": "^1.13.7"
+  }
+}
