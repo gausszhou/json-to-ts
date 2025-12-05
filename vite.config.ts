@@ -21,7 +21,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/main.ts'),
       name: 'Json2Ts',
-      fileName: 'main.js',
+      fileName: 'main',
     },
   },
 })
